@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlammOn</title>
+    <link rel="stylesheet" href="../css/signstyle.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar">
+            <ul>
+                <li>GlammON</li>
+                <li><a href="../html/index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container container-main">
+        <div class="add-content">
+            <div class="glammon-logo-content">
+                <img class="glammon-logo-content-image" src="../image/logoImage.PNG">
+            </div>
+            <div class="info-content">
+                <p>Copyright &copy; 2021 GlammOn</p>
+            </div>
+        </div>
+        <div class="form-content signup">
+            <h1>Fill the Form</h1>
+            <form class="reg-form">
+                <div class="input-icon"><i class="fa fa-user" aria-hidden="true"></i><input type="text" name="first_name" id="first_name" placeholder="John"></div>
+                <div class="input-icon"> <i class="fa fa-user" aria-hidden="true"></i><input type="text" name="last_name" id="last_name" placeholder="smith"></div>
+                <div class="input-icon"><i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="user_email" id="user_email" placeholder="johnsm@gmail.com"></div>
+                <div class="input-icon"><i class="fa fa-unlock" aria-hidden="true"></i><input type="password" name="user_password" id="user_password" placeholder="password"></div>
+                <input type="submit" value="Sign Up" id="btn_signup">
+            </form>
+            <p>Already have account ?<button id="loginPage">SignIn</button></p>
+        </div>
+
+        <div class="form-content login">
+            <h1>Fill the Form</h1>
+            <form class="reg-form">
+                <div class="input-icon"><i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="user_email" id="user_email" placeholder="johnsm@gmail.com"></div>
+                <div class="input-icon"><i class="fa fa-unlock" aria-hidden="true"></i><input type="password" name="user_password" id="user_password" placeholder="password"></div>
+                <input type="button" value="sign in" id="btn_signin">
+
+            </form>
+            <p>Don't have Account ?<button id="signupPage">Register</button></p>
+        </div>
+
+        <script type="text/javascript" src="../js/location.js"></script>
+</body>
+
+</html>
